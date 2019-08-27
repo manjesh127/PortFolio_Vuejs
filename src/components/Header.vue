@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar navbar-expand-lg navbar-light mb-5"
+    class="navbar navbar-expand-lg navbar-light"
     style="background-image: linear-gradient(152deg, rgb(70, 167, 183) 0%, rgb(69, 181, 88) 47%, rgb(67, 69, 125) 100%);"
   >
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">

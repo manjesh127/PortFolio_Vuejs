@@ -76,4 +76,13 @@ img {
 .card-text {
   color: white !important;
 }
+.card-title {
+  color: #84cda2 !important;
+}
+.card-title:hover {
+  color: #22819b !important;
+}
+a {
+  text-decoration: none;
+}
 </style>
