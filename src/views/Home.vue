@@ -19,7 +19,7 @@
       <div class="card">
         <img src="@/assets/ico.png" class="card-img-top" alt="..." />
         <div class="card-body bg-dark">
-          <h5 class="card-title">ICO Contract Development</h5>
+          <h5 class="card-title">ICO Development</h5>
           <p
             class="card-text"
           >DevGenesis specializes in providing Blockchain development services globally. We aim to resolve real world challenges by utilizing the power of Blockchain Technology for innovative businesses. Our core focus is to provide blockchain development services to growing organizations and resolving issues related to trust, inefficiency and frauds. Covering all the aspects of the Blockchain domain, we aim to provide enterprises and startups with simple and affordable end-to-end solutions that are customizable according to their requirements..</p>
