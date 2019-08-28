@@ -9,11 +9,11 @@
         <img src="@/assets/dev.png" alt />
       </router-link>
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <router-link class="nav-link change" to="/">
-          <i class="fa fa-home"></i>Home
+        <router-link class="nav-link change homel" to="/">
+          <i class="fa fa-home fa-lg"></i>
         </router-link>
-        <router-link class="nav-link change" to="/portfolio">
-          <i class="fa fa-address-card"></i>Portfolio
+        <router-link class="nav-link change portf" to="/portfolio">
+          <i class="fa fa-address-card fa-lg"></i>
         </router-link>
       </ul>
     </div>
@@ -44,6 +44,17 @@ li {
 }
 .change:hover {
   color: rgb(69, 181, 88) !important;
+}
+.homel:hover::after {
+  color: rgb(69, 181, 88) !important;
+  content: "Home";
+}
+.homel {
+  margin-right: 10px;
+}
+.portf:hover::after {
+  color: rgb(69, 181, 88) !important;
+  content: "Portfolio";
 }
 img {
   width: 260px;
