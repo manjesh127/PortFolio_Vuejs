@@ -59,6 +59,6 @@ img.card-img-top {
   color: white !important;
 }
 .card-body h5 {
-  color: #22819b !important;
+  color: #84cda2 !important;
 }
 </style>

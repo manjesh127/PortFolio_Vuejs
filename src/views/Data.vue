@@ -1,26 +1,23 @@
 <template>
   <div class="data bg-dark">
     <!-- <div class="container"> -->
-    <div class="row">
-      <div class="col-md-4 mt-4">
-        <h5>
-          active_cryptocurrencies :
-          <b>{{title}}</b>
-        </h5>
-        <h5>
-          active_exchanges :
-          <b>{{acExch}}</b>
-        </h5>
-        <h5>
-          btc_dominance :
-          <b>{{btcD}}</b>
-        </h5>
-        <h5>
-          eth_dominance :
-          <b>{{ethD}}</b>
-        </h5>
-        <p>{{data}}</p>
-      </div>
+    <div class="row pt-4 r2">
+      <h5>
+        active_cryptocurrencies :
+        <b>{{title}}</b>
+      </h5>
+      <h5>
+        active_exchanges :
+        <b>{{acExch}}</b>
+      </h5>
+      <h5>
+        btc_dominance :
+        <b>{{btcD}}</b>
+      </h5>
+      <h5>
+        eth_dominance :
+        <b>{{ethD}}</b>
+      </h5>
     </div>
   </div>
   <!-- </div> -->
@@ -63,5 +60,14 @@ export default {
 }
 .row {
   color: white !important;
+}
+.r2 {
+  margin: auto;
+}
+.r2 h5 {
+  margin: auto;
+}
+.r2 b {
+  color: #e65c00;
 }
 </style>
