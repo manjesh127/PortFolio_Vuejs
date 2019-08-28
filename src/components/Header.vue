@@ -15,6 +15,9 @@
         <router-link class="nav-link change portf" to="/portfolio">
           <i class="fa fa-address-card fa-lg"></i>
         </router-link>
+        <router-link class="nav-link change data" to="/blockchain_data">
+          <i class="fa fa-database fa-lg"></i>
+        </router-link>
       </ul>
     </div>
   </nav>
@@ -49,12 +52,13 @@ li {
   color: rgb(69, 181, 88) !important;
   content: "Home";
 }
-.homel {
-  margin-right: 10px;
-}
 .portf:hover::after {
   color: rgb(69, 181, 88) !important;
   content: "Portfolio";
+}
+.data:hover::after {
+  color: rgb(69, 181, 88) !important;
+  content: "Blockchain Data";
 }
 img {
   width: 260px;

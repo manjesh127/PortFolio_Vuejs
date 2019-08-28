@@ -6,7 +6,7 @@
         Smart Contract Development
       </h1>
     </div>
-    <div class="card-group animated pulse fast">
+    <div class="card-group animated zoomInUp fast">
       <div class="card">
         <img src="@/assets/block.png" class="card-img-top" alt="..." />
         <div class="card-body bg-dark">
