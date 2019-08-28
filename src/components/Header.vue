@@ -8,9 +8,13 @@
       <router-link class="nav-link" to="/">
         <img src="@/assets/dev.png" alt />
       </router-link>
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <router-link class="nav-link change" to="/">Home</router-link>
-        <router-link class="nav-link change" to="/portfolio">Portfolio</router-link>
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <router-link class="nav-link change" to="/">
+          <i class="fa fa-home"></i>Home
+        </router-link>
+        <router-link class="nav-link change" to="/portfolio">
+          <i class="fa fa-address-card"></i>Portfolio
+        </router-link>
       </ul>
     </div>
   </nav>
@@ -39,7 +43,7 @@ li {
   color: white !important;
 }
 .change:hover {
-  color: rgb(67, 69, 125) !important;
+  color: rgb(69, 181, 88) !important;
 }
 img {
   width: 260px;
