@@ -4,7 +4,6 @@
     style="background-image: linear-gradient(152deg, rgb(70, 167, 183) 0%, rgb(69, 181, 88) 47%, rgb(67, 69, 125) 100%);"
   >
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <!-- <a class="navbar-brand" href="#">Hidden brand</a> -->
       <router-link class="nav-link" to="/">
         <img src="@/assets/dev.png" alt />
       </router-link>
@@ -29,7 +28,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
   margin: 40px 0 0;

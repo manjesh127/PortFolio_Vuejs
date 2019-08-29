@@ -67,9 +67,6 @@ export default {
 </script>
 
 <style  scoped>
-/* img {
-  width: 500px;
-} */
 .about {
   min-height: 100vh;
 }
@@ -87,9 +84,7 @@ a {
 }
 img {
   width: 500px;
-  /* height: 100px; */
-  /* background: red; */
-  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  -webkit-transition: width 2s;
   transition: width 1s;
 }
 

@@ -1,6 +1,5 @@
 <template>
   <div class="data bg-dark">
-    <!-- <div class="container"> -->
     <div class="row pt-4 r2">
       <h5>
         active_cryptocurrencies :
@@ -20,7 +19,6 @@
       </h5>
     </div>
   </div>
-  <!-- </div> -->
 </template>
 
 <script>
@@ -41,14 +39,16 @@ export default {
     axios
       .post("https://api.evoai.network/marketdata")
       .then(res => {
-        console.log("result", res);
         this.title = res.data.data.data.active_cryptocurrencies;
         this.acExch = res.data.data.data.active_exchanges;
         this.btcD = res.data.data.data.btc_dominance;
         this.ethD = res.data.data.data.eth_dominance;
       })
       .catch(e => {
-        console.log("error", e);
+        this.title = "No Active Crytocurrency";
+        this.acExch = "No active exchange";
+        this.btcD = "No btc dominance";
+        this.ethD = "No eth dominance";
       });
   }
 };

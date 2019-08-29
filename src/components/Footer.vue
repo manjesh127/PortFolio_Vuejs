@@ -18,8 +18,6 @@ export default {
     rgb(69, 181, 88) 47%,
     rgb(67, 69, 125) 100%
   );
-  /* position: absolute;
-  bottom: 0; */
   width: 100%;
 }
 .footer p {
